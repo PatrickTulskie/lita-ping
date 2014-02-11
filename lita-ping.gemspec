@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-ping"
   spec.version       = "1.0.0"
-  spec.authors       = ["Patrick Tulskie"]
-  spec.email         = ["patricktulskie@gmail.com"]
+  spec.authors       = ["Patrick Tulskie", "Marcel de Graaf"]
+  spec.email         = ["patricktulskie@gmail.com", "mail@marceldegraaf.net"]
   spec.description   = %q{A Lita handler for basic ping/pong.}
   spec.summary       = %q{A Lita handler for basic ping/pong.}
-  spec.homepage      = "https://github.com/patricktulskie/lita-ping"
+  spec.homepage      = "https://github.com/marceldegraaf/lita-ping"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
