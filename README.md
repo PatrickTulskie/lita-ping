@@ -17,8 +17,8 @@ None.  Just use it.
 ## Usage
 
 ```
-Lita: ping
-Lita: Ping
+user1> lita ping
+Lita> Pong
 ```
 
 ## License
