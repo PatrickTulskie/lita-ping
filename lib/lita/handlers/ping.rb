@@ -9,9 +9,9 @@ module Lita
 
       def self.default_config(handler_config)
       end
-      
+
       def reply(response)
-        response.reply "PoNg pOnG PoNg pOnG"
+        response.reply "Pong"
       end
     end
 
