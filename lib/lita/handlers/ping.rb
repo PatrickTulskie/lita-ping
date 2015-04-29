@@ -3,7 +3,7 @@ require "lita"
 module Lita
   module Handlers
     class Ping < Handler
-      route(/(p|P)ing/, :reply, command: true, help: {
+      route(/(p|P)ing\W*$/, :reply, command: true, help: {
         "ping" => "Gives you back a pong if the bot is online and listening."
       })
 
