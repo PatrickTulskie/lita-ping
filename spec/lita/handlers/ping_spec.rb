@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Lita::Handlers::Ping, lita_handler: true do
-  it { routes_command("ping").to(:reply) }
+  it { is_expected.to route_command("ping").to(:reply) }
 
   describe "#foo" do
 
