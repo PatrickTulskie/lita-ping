@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-ping"
-  spec.version       = "1.1.0"
+  spec.version       = "1.1.1"
   spec.authors       = ["Patrick Tulskie"]
   spec.email         = ["patricktulskie@gmail.com"]
   spec.description   = %q{A Lita handler for basic ping/pong.}
