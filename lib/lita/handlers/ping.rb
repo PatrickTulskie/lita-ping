@@ -7,7 +7,7 @@ module Lita
         "ping" => "Gives you back a pong if the bot is online and listening."
       })
 
-      def self.default_config(handler_config)
+      def self.config(handler_config)
       end
       
       def reply(response)
