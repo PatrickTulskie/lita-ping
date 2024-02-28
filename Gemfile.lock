@@ -35,7 +35,7 @@ GEM
     nio4r (2.7.0)
     puma (6.4.2)
       nio4r (~> 2.0)
-    rack (3.0.7)
+    rack (3.0.9.1)
     rb-readline (0.5.5)
     redis (4.6.0)
     redis-namespace (1.8.2)
